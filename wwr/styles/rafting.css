@@ -50,13 +50,11 @@ header nav {
 
 }
 
-.socialmedia {
-    width: 100px;
-
-}
-
 .socialmedia a {
     text-decoration: none;
+    display: inline-flex;
+    width: 40px;
+    gap: 10px;
 
 }
 
