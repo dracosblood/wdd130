@@ -41,6 +41,13 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .socialmedia a {
@@ -62,7 +69,18 @@ h1 {
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
 .hero img {
+
     display: block;
     width: 100%;
     height: auto;
@@ -71,4 +89,17 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+h2 {
+    background-color: var(--accent2-color);
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--body-font);
+
 }
