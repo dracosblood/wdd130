@@ -50,8 +50,14 @@ header nav {
 
 }
 
+.socialmedia {
+    width: 100px;
+
+}
+
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero {
@@ -99,7 +105,5 @@ h2 {
 footer {
     display: flex;
     flex-direction: column;
-
     font-family: var(--body-font);
-
 }
