@@ -251,6 +251,8 @@ footer {
     grid-template-columns: 100px 1fr;
     align-items: center;
     gap: 0.1rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
 }
 
 .select-form {
@@ -263,11 +265,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: .25rem;
-}
-
-.radio-form .message {
-    font-weight: bold;
-    margin-bottom: 0.2rem;
 }
 
 .radio-form label,
