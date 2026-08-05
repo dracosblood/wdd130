@@ -215,14 +215,15 @@ footer {
 
 .form-items {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 1rem;
 }
 
 .form-items label {
+    display: flex;
     font-weight: bold;
     margin-bottom: 0.2rem;
+    gap: 3rem;
     width: 100px;
 }
 
@@ -245,7 +246,7 @@ footer {
     font-family: var(--body-font);
 }
 
-.radio-form {
+.radio-form .message {
     display: grid;
     grid-template-columns: 100px 1fr;
     align-items: center;
