@@ -233,6 +233,8 @@ footer {
 }
 
 .form-items-message label {
+    display: flex;
+    flex-direction: column;
     font-weight: bold;
     margin-bottom: 0.2rem;
 }
