@@ -34,25 +34,25 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1649.003173339924!2d-62.296521665976556!3d10.578185528947467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sve!4v1785881581546!5m2!1ses-419!2sve"
-                  width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
             <div>
                 <form action="about.html" class="form-contact">
                     <section class="form-items">
-                        <label for="form1">
-                            <p>Name</p> <input type="text" placeholder=" Type your name here">
+                        <label for="form1" id="form1">
+                            <p>Name</p> <input name="name" type="text"
+                              placeholder=" Type your name here">
                         </label>
 
                     </section>
                     <section class="form-items">
-                        <label for="form2">
-                            <p>Email</p> <input type="email" placeholder=" example: email@mail.com">
+                        <label for="form2" id="form2">
+                            <p>Email</p> <input name="email" placeholder=" example: email@mail.com">
                         </label>
 
                     </section>
                     <section class="radio-form">
-                        <label for="form3" class="message">
+                        <label for="form3" class="message" id="form3">
                             <p>Message Purpose</p>
                             <section class="select-form">
                                 <label><input type="radio" name="purpose" value="general"
@@ -69,15 +69,16 @@
 
                     </section>
                     <section class="form-items-message">
-                        <label for="form4">
-                            <p>Message</p><textarea name="message" id="user-msj"
+                        <label for="form4" id="form4">
+                            <p>Message</p><textarea name="message"
                               placeholder="Type here..."></textarea>
                         </label>
 
                     </section>
                     <section class="checkbox-form">
-                        <label for="form5"><input type="checkbox" name="subscription"
-                              value="yes">Please Subscribe me to the monthly newsletter.</label>
+                        <label for="form5" id="form5"><input type="checkbox" name="subscription"
+                              value="yes" id="form5">Please Subscribe me to the monthly
+                            newsletter.</label>
                     </section>
                     <button type="submit" class="button-form">Get in Touch!</button>
                 </form>
